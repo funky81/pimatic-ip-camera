@@ -3,5 +3,9 @@
 module.exports = {
   title: "my plugin config options"
   type: "object"
-  properties:[]
+  properties:
+    debug:
+      description: "Debug amode. Writes debug message to the pimatic log"
+      type: "boolean"
+      default: false
 }

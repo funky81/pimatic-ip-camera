@@ -153,6 +153,11 @@ module.exports = (env) ->
 			else
 				@plugin.error "Invalid direction"
 			return
+
+		destroy: () ->
+			super()
+
+
 	class IpCameraActionProvider extends env.actions.ActionProvider
 		constructor: (@framework)->
 			#env.logger.info "Masuk sini constructor"
