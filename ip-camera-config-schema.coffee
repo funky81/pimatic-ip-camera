@@ -5,7 +5,7 @@ module.exports = {
   type: "object"
   properties:
     debug:
-      description: "Debug amode. Writes debug message to the pimatic log"
+      description: "Debug mode. Writes debug message to the pimatic log"
       type: "boolean"
       default: false
 }
